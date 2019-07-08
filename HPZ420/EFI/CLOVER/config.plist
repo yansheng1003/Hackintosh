@@ -90,7 +90,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>darkwake=0 npci=0x3000 keepsyms=1</string>
+		<string>darkwake=0 npci=0x3000 keepsyms=1 nvda_drv=1</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -142,8 +142,8 @@
 	</array>
 	<key>GUI</key>
 	<dict>
-		<key>ConsoleMode</key>
-		<string>Max</string>
+		<key>#ScreenResolution</key>
+		<string>1920x1080</string>
 		<key>Custom</key>
 		<dict>
 			<key>Entries</key>
@@ -513,31 +513,33 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>08/08/2017</string>
+		<string>12/19/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MP61.88Z.0120.B00.1708080652</string>
+		<string>MP61.88Z.F000.B00.1812191437</string>
 		<key>Board-ID</key>
 		<string>Mac-F60DEB81FF30ACF6</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>F5K329207GUFHDD1H</string>
+		<string>F5K745902CDFHDDAD</string>
 		<key>BoardType</key>
 		<integer>11</integer>
 		<key>BoardVersion</key>
-		<string>MacPro6,1</string>
+		<string>1.0</string>
 		<key>ChassisAssetTag</key>
 		<string>Pro-Enclosure</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x02</string>
+		<key>EfiVersion</key>
+		<string>128.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacPro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xE80FE136</string>
+		<string>0xE80FE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -558,9 +560,9 @@
 		<key>ProductName</key>
 		<string>MacPro6,1</string>
 		<key>SerialNumber</key>
-		<string>F5KL30J6F9VM</string>
+		<string>F5KVN0MGF9VM</string>
 		<key>SmUUID</key>
-		<string>88704E6B-1EA5-45FC-83F9-700AB4763661</string>
+		<string>F66ADA2B-6370-4C24-89A1-A6640D659193</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
